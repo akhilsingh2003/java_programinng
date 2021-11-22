@@ -1,19 +1,11 @@
-abstract class Base
+abstract class Base12
 {
-    public Base()
-    {
-        System.out.println("i am constructor of Base");
 
-    }
-    public void sayhello()
-    {
-        System.out.println("hello");
-    }
     abstract public void greet();
     abstract public void greet2();
 
 }
-class child2 extends Base
+class child2 extends Base12
 {
     public void greet()
     {
@@ -25,7 +17,7 @@ class child2 extends Base
 
     }
 }
-abstract class chlid3 extends Base
+abstract class chlid3 extends Base12
 {
     public void th()
     {
@@ -34,8 +26,10 @@ abstract class chlid3 extends Base
 }
 public class abstract_cls {
     public static void main(String[] args) {
-        child2 c=new child2();
 
+        child2 c=new child2();
+        c.greet();
+        c.greet2();
 
     }
 }

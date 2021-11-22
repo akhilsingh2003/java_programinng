@@ -8,6 +8,7 @@ interface Bicycle
 
 class AvonCycle implements Bicycle{
     public void blowHorn()
+
     {
         System.out.println("pee pee pee ");
     }
@@ -15,7 +16,7 @@ class AvonCycle implements Bicycle{
     {
         System.out.println("Applying Brake");
     }
-    public void speedUp(int increment)
+    public void speedUp(int increment) 
     {
         System.out.println("Applying speedUp");
     }

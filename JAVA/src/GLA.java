@@ -8,7 +8,7 @@ public class GLA {
     {
         System.out.println("Btech from EC");
     }
-    void Btech(int a,int b)
+    void Btech(int...arr)
     {
         System.out.println("Btech from Mech");
     }
@@ -16,5 +16,7 @@ public class GLA {
     public static void main(String[] args) {
         GLA con=new GLA();
         con.Btech(1);
+        con.Btech();
+        con.Btech(3,4);
     }
 }

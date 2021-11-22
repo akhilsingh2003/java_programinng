@@ -16,7 +16,7 @@ public class method_overloading {
 
     }
     public static void main(String[] args) {
-        foo(6,7,8,9);
+        foo(6,7,8,9,8,9,0);
         foo(1);
         foo();
 

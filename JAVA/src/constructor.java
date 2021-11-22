@@ -9,7 +9,7 @@ class MymainEmployee
 
         }
 
-        public String getName(){ return name;}
+        public String getName() { return name;}
         public void setName(String n){this.name=n;}
         public void setId(int i){this.id=1;}
         public int getId() {return id;}
