@@ -1,3 +1,5 @@
+// Normal implementation of stack operation
+
 import java.util.*;
 import java.util.Stack;
 
